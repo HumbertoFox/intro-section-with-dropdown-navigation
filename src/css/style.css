@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    max-width: 1440px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Epilogue', sans-serif;
+    background-color: var(--Almost-White);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 40px 0 42px;
+}
+
+.div-header {
+    display: flex;
+    gap: 62px;
+    margin-top: 8px;
+}
+
+.ul-manu {
+    display: flex;
+    gap: 39px;
+    padding-top: 3px;
+}
+
+.ul-manu li {
+    position: relative;
+    color: var(--Medium-Gray);
+    font-size: 15px;
+    letter-spacing: -.6px;
+    padding-right: 17px;
+}
+
+.ul-manu li,
+.btn,
+.attribution a {
+    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ef5feb7b-75d4-47ee-a596-7be253492ebd), auto;
+    transition: .3s ease-in-out;
+}
+
+.ul-manu li:hover,
+.btn-header-1:hover,
+.btn-header-2:hover {
+    color: var(--Almost-Black);
+}
+
+.btn-header-2:hover {
+    border: 1px solid var(--Almost-Black);
+}
+
+.ul-manu li:nth-child(1)::after,
+.ul-manu li:nth-child(2)::after {
+    position: absolute;
+    content: url(../assets/images/icon-arrow-down.svg);
+    right: 0;
+    top: -2px;
+    opacity: .8;
+}
+
+.ul-manu li:nth-child(3) {
+    padding-right: 2px;
+    cursor: default;
+}
+
+.ul-manu li:nth-child(3):hover {
+    color: var(--Medium-Gray);
+}
+
+.btn-header-1,
+.btn-header-2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    color: var(--Medium-Gray);
+    background-color: var(--Almost-White);
+    padding: 12px 21px;
+    
+}
+
+.btn-header-1 {
+    margin-right: 17px;
+}
+
+.btn-header-2 {
+    border: 1px solid var(--Medium-Gray);
+    border-radius: 12px;
+}
+
+.div-main-info {
+    display: flex;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 170px;
+    padding-left: 165px;
+}
+
+.section-left .h1 {
+    max-width: 520px;
+    font-size: 79px;
+    font-weight: 700;
+    color: var(--Almost-Black);
+    letter-spacing: -.6px;
+}
+
+.section-left .p-info-left {
+    max-width: 440px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Medium-Gray);
+    line-height: 28px;
+}
+
+.btn-info {
+    max-width: 163px;
+    height: 55px;
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--Almost-White);
+    background-color: var(--Almost-Black);
+    border: 1px solid var(--Almost-Black);
+    border-radius: 15px;
+    margin-top: 3px;
+}
+
+.btn-info:hover {
+    color: var(--Almost-Black);
+    background-color: var(--Almost-White);
+}
+
+.div-logos-ilustration {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 61px;
+}
+
+.picture-right {
+    max-width: 50%;
+    padding: 0 95px 0 145px;
+    margin-top: 67px;
+}
+
+.picture-right img {
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

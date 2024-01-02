@@ -1,7 +1,7 @@
 @media (max-width: 900px) {
     .main {
         max-width: 375px;
-        min-height: 900px;
+        min-height: 780px;
         background-color: #FFF;
     }
 
@@ -17,7 +17,7 @@
 
     .nav-header.active {
         width: 240px;
-        height: 100vh;
+        height: 780px;
         position: absolute;
         top: 0;
         right: 0;
@@ -34,25 +34,24 @@
         margin-top: 24px;
     }
 
-    .hamburger {
+    .menu-hamburger {
         display: block;
         z-index: 1;
-        margin-top: 16px;
     }
 
-    .ul-manu {
+    .ul-menu {
         flex-direction: column;
         gap: 15px;
     }
 
-    .ul-manu li {
+    .ul-menu li {
         font-size: 16px;
         letter-spacing: normal;
         margin-right: auto;
     }
 
-    .ul-manu li:nth-child(1),
-    .ul-manu li:nth-child(2) {
+    .ul-menu .li-features,
+    .ul-menu .li-company {
         padding-right: 26px;
     }
 

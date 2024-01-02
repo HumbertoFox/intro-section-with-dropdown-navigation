@@ -6,13 +6,17 @@
     }
 
     .header {
-        padding: 18px 0 24px 17px;
+        padding: 18px 16px 24px 17px;
     }
 
     .ul-manu,
     .btn-header-1,
     .btn-header-2 {
         display: none;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     .div-main-info {

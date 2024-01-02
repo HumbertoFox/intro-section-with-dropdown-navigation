@@ -27,24 +27,25 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 40px 0 42px;
-}
-
-.nav-header {
-    display: flex;
-    gap: 62px;
-    margin-top: 24px;
-    margin-bottom: 2px;
+    padding: 0 40px 0 41px;
 }
 
 .logo {
-    margin-top: 4px;
+    margin-top: 29px;
+}
+
+.nav-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 62px;
+    margin-top: 21px;
 }
 
 .ul-manu {
     display: flex;
     gap: 39px;
+    margin-top: 7px;
 }
 
 .ul-manu li {
@@ -67,10 +68,6 @@ body {
 .btn-header-1:hover,
 .btn-header-2:hover {
     color: var(--Almost-Black);
-}
-
-.btn-header-2:hover {
-    border: 1px solid var(--Almost-Black);
 }
 
 .ul-manu li:nth-child(1):hover::after,
@@ -98,7 +95,7 @@ body {
 }
 
 .div-btn-header {
-    align-self: flex-end;
+    display: flex;
 }
 
 .btn-header-1,
@@ -112,12 +109,16 @@ body {
 }
 
 .btn-header-1 {
-    margin-right: 17px;
+    margin-right: 20px;
 }
 
 .btn-header-2 {
     border: 1px solid var(--Medium-Gray);
     border-radius: 12px;
+}
+
+.btn-header-2:hover {
+    border: 1px solid var(--Almost-Black);
 }
 
 .div-main-info {

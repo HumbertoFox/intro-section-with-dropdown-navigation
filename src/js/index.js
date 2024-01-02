@@ -1,4 +1,4 @@
 const selectHamburger = document.querySelector('.hamburger');
-const selectUl = document.querySelector('.ul-manu');
+const selectNav = document.querySelector('.nav-header');
 
-selectHamburger.addEventListener("click", () => selectUl.classList.toggle('active'));
+selectHamburger.addEventListener("click", () => selectNav.classList.toggle('active'));

@@ -10,9 +10,9 @@ const ulFeatures = `<ul class="ul-features">
                         <li><img class="img-li-features" src="./src/assets/images/icon-planning.svg" alt="icon planning"/>Planning</li>
                     </ul>`;
 const ulCompany = `<ul class="ul-company">
-                        <li><img class="" src=""/>History</li>
-                        <li><img class="" src=""/>Our Team</li>
-                        <li><img class="" src=""/>Blog</li>
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
                    </ul>`;
 const divOverlay = `<div class="overlay"></div>`;
 

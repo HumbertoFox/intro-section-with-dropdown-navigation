@@ -34,13 +34,12 @@ body {
 
 .menu-hamburger {
     display: none;
-    transition: .3s ease-in-out;
     margin-top: 18px;
 }
 
 .logo {
-    margin-top: 29px;
     align-self: flex-start;
+    margin-top: 32px;
 }
 
 .nav-header {
